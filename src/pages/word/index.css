@@ -1,0 +1,86 @@
+.Header1 {
+	height: 50px;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.Header1-left {
+	width: 30px;
+	height: 30px;
+	float: left;
+	border-radius: 50%;
+	border: 3px solid #eee;
+	overflow: hidden;
+	margin-left: 5%;
+	margin-top: 10px;
+}
+.Header1-left-img {
+	width: 30px;
+	height:30px;
+}
+.Header1-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100px;
+	height: 100%;
+	float: right;
+}
+.icon {
+	width: 18px;
+	height: 18px;
+}
+.popImg {
+	width: 15px;
+	height: 15px;
+}
+.focus_search {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+.shortcut {
+	width: 100%;
+	height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #eee;
+	background-color: #FFFFFF;
+	z-index:20;
+	margin-left: 10px;
+}
+.direct {
+	width: 100%;
+	height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #eee;
+}
+.font {
+	font-size: .2.5rem;
+}
+.searchUI {
+	position: flex;
+	background-color: #fff;
+	/* top: 0px; */
+	/* height: 100vh;
+	width: 100vw; */
+}
+.search_box {
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+}
+.search_input {
+	width: 95%;
+	height: 100%;
+	margin: auto;
+	background-color: #eee;
+	border-radius: 20px;
+}
+.search_content {
+	color: #666;
+	margin-left: 10px;
+}

@@ -1,0 +1,23 @@
+.text-content-container {
+	min-width: 10vw;
+	max-width: 60vw;
+	min-height: 5vh;
+	word-wrap: break-word;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: .4rem;
+	letter-spacing: 1px;
+}
+.self-backend {
+	border: 1px solid #9bcbde;
+	background-color: #a8d5ec;
+}
+.noself-backend {
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+.text-content {
+	font-size: .8rem;
+}
